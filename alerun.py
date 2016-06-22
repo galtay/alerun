@@ -3,7 +3,7 @@ Module that provides run finding in lists.
 
 Problem description,
 
-Write a python function named “find_consecutive_runs” that accepts as an
+Write a python function named "find_consecutive_runs" that accepts as an
 argument a list of integers. It must find in that list all runs of 3
 consecutive numbers that increase or decrease by 1. It should return the
 list indices of the first element of each run. If there are no consecutive
