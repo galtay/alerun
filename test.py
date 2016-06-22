@@ -42,7 +42,7 @@ class TestIsMonoSkip(unittest.TestCase):
         self.assertFalse(actual)
 
     def test_not_skip(self):
-        """Assert mixed case of skip and -skip returns False"""
+        """Assert not all entries == -skip returns False"""
         diffs = [-3, -5, -3]
         skip = 3
         actual = alerun._is_mono_skip(diffs, skip)
