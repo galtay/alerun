@@ -94,7 +94,7 @@ def find_consecutive_runs(search_me, skip=1, window_size=3):
     # check window size
     if window_size < 2:
         raise Exception(
-            'window size = {} but must be greater than 2'.format(window_size))
+            'window size = {} but must be greater than 1'.format(window_size))
 
     n_elements = len(search_me)
 
