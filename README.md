@@ -1,4 +1,4 @@
-# alerun | ![travis_img_alt][travis_img]
+# alerun | [![travis_img_alt][travis_img]][travis_url]
 finds runs in lists of integers
 
 Simply run the file `alerun.py` to see results,
@@ -19,3 +19,4 @@ The module can also be imported and used in other projects,
 
 
 [travis_img]: https://travis-ci.org/galtay/alerun.svg?branch=master
+[travis_url]: https://travis-ci.org/galtay/alerun
